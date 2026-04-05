@@ -1,0 +1,68 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div.alinhamt_imgs_transf {
+    margin-top: 150px;
+    display: flex;
+    position: relative;
+    right: 100px;
+}
+
+#img-tamanho {
+    position: relative;
+    width: 1600px;
+    max-height: 750px;
+}
+
+div.botao-transf {
+    background-color: #E6FF82;
+    border-radius: 7px;
+    width: 130px; 
+    height: 25px; 
+    font-family:Sans-Serif;
+    display: flex; /* Para centralizar o texto internamente */
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 550px;
+    left: 150px;
+}
+
+div.botao-transf-cor {
+    color: rgb(0, 0, 0);
+}
+
+h2#text-transf {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    position: relative;
+    bottom: 520px;
+    left: 150px;
+    color: white;
+    max-width: 600px;
+}
+
+p#btao-text-transf1 {
+    background-color: #CEF03B;
+    height: 80px;
+    width: 430px;
+    border-radius: 10px;
+    font-family: 'Inter', Sans-Serif;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 450px;
+    left: 150px;
+    transition: 0.5s ease;
+}
+
+p#btao-text-transf1:hover {
+    background-color: #f1ffbb;
+    transform: scale(1.2);
+}

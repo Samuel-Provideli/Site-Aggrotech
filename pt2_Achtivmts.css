@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.botao-pont{
+    background-color: #D9FF66;
+    border-radius: 7px;
+    width: 120px; 
+    height: 25px; 
+    font-family:Sans-Serif;
+    display: flex; /* Para centralizar o texto internamente */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.botao-pont-cor{ 
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+ /* fim do botaozinho achievements*/
+.conteiner-text-pont{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.tex-pont{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tex-menor-pont{
+    max-width: 500px; /*tamanho maximo, quebra o texto na parte q deseja*/
+    color: rgba(0, 0, 0, 0.584);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#movimt{
+    transition: 0.5s ease;
+}
+
+#movimt:hover{
+    transform: scale(1.05);
+}
+
+/*parte dos numeros da conquista*/
+
+.num-conqstas{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.tmnho-letrs{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.486);
+}
+
+/*fim dos codgs dos numeros grandes da conquista*/
+
+/*parte dos textos dos numeros das conquistas*/
+
+#alinmt-numrs{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 310px) and (max-width: 768px) {
+  /* CSS rules to apply when the screen width is 600px or less */
+  
+  .botao-pont{
+    margin: auto;
+    align-items: center;
+}
+
+.conteiner-text-pont{
+    flex-direction: column;
+    text-align: center;
+    gap: 5vw;
+    align-items: center;
+}
+
+h1.tex-pont{
+    font-size: 40px;
+}
+.tex-menor-pont{
+    font-size: 15px;
+    padding: 0px 20px 20px;
+}
+/*parte dos textos dos numeros das conquistas*/
+
+#alinmt-numrs{
+    display: flex;
+    padding: 5%;
+    margin-bottom: 20px;
+}
+.num-conqstas{
+    font-size: 15px;
+}
+.tmnho-letrs{
+    font-size: 15px;
+    width: 90%;
+    
+}
+
+}

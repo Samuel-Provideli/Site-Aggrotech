@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.botao-benefc {
+    background-color: #D9FF66;
+    border-radius: 7px;
+    width: 130px; 
+    height: 25px; 
+    font-family:Sans-Serif;
+    display: flex; /* Para centralizar o texto internamente */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 15px;
+    margin-top: 150px;
+}
+
+div.botao-benef-cor{
+    color: rgb(0, 0, 0);
+}
+
+div.text-benefc{
+    position: relative;
+    font-size: 30px;
+    max-width:900px ;
+    font-family: 'Inter', sans-serif
+}
+
+div.alinhamt_imgs_benefc{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    gap: 70px;
+    margin-top: 70px;
+}
+
+.tamanho_icon{
+    width: 70px;
+    height: 70px;
+    background-color: #E6FF82;
+    border-radius: 5px;
+}
+
+.alinmt-fleira1{
+    display: flex;
+    justify-content:space-around;
+}
+
+.alinmt-fleira2{
+    display: flex;
+    justify-content:space-around;
+}
+
+h2#alinhamt_text_benefc{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h2#alinhamt_text_benefc2{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.filhodafreira{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    transition: 0.5s ease;
+}
+
+.filhodafreira:hover{
+    transform: scale(1.2);
+}
+
+.text-menor-benfc{
+    color: rgba(0, 0, 0, 0.473);
+    font-family: 'Inter', sans-serif;
+    width: 400px;
+    font-size: 18px;
+    margin-top:20px ;
+}

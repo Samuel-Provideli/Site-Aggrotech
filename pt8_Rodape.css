@@ -1,0 +1,126 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+footer#rodape-estilo-conteiner{
+    background-color: #032C1E;
+    width: 100%;
+    padding-bottom: 200px; /*PADDING LIMITANDO O TAMNHO, QUALQUER COISA RETIRAR!*/
+    margin-top: 150px; /*MARGIN LIMITANDO O TOPO, QUALQUER COISA RETIRAR!*/
+    
+}
+
+section#text{
+    display: flex;
+    justify-content: space-between;
+     max-width: 1440px;
+    margin: auto;
+}
+
+div#Caixa-esquerda{
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#text-gnd-esqrd{
+    font-family: 'Inter', Sans-Serif;
+    color: white;
+    width: 800px;
+    font-size: 40px;
+}
+
+p#btao-text-rodape1{
+    background-color: #CEF03B;
+    height: 80px;
+    width: 250px;
+    border-radius: 10px;
+    font-family: 'Inter', Sans-Serif;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    transition: 0.5s ease;
+}
+
+p#btao-text-rodape1:hover{
+    background-color: #f1ffbb;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+p#copyright{
+    position: relative;
+    top: 200px;
+    color: white;
+}
+
+div#Caixa-centro{
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#cor-text-center{
+    font-family: 'Inter', Sans-Serif;
+    color: rgba(255, 255, 255, 0.726);
+    margin-top: 20px;
+    height: 200px;
+}
+
+p.spaço{
+    margin-top: 20px;
+    max-width: 120px;
+    transition: 0.3s ease;
+}
+
+p.spaço:hover{
+    transform: scale(1.1);
+}
+
+h2#campany{
+    font-family: 'Inter', Sans-Serif;
+    color: white;
+    font-size: 40px;
+}
+
+div#Caixa-direita{
+    flex-direction: column;
+    margin-top: 100px;
+    font-family: 'Inter', Sans-Serif;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+h2#information{
+    font-family: 'Inter', Sans-Serif;
+    color: white;
+    font-size: 40px;
+}
+
+div#icons-fooder-conteiner{
+    width: 300px;
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 350px;
+}
+
+.sparaçao{
+    margin-left: 20px;
+}
+
+img.img-tamanho-footer{
+    width: 50px;
+    background-color: #CEF03B;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+
+img.img-tamanho-footer:hover{
+    background-color: #f1ffbb;
+    transform: scale(1.1);
+}

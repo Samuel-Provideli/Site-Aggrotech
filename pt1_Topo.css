@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1200px){
+  /* CSS rules to apply when the screen width is 600px or less */}
+
+.conteiner-margin{
+    width: 100%;
+    max-width: 0 auto;
+}
+
+#cor-verde-escuro{
+    background-color: #032C1E;
+    padding-top: 50px;
+}
+
+#burguer{
+    display: none;
+}
+.none{
+    display: none;
+}
+
+.material-icons{
+    display: none;
+}
+
+.link-conteiner{
+    margin: auto;
+}
+
+header{
+    border-radius: 20px 20px 0px 0px;
+   
+    
+}
+
+.alinhamento-margin{
+    max-width: 1440px;
+    margin: auto;
+   
+    
+}
+
+.menu-topo{ 
+    background-color: #11705271;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+     /*margem to topo do site verde clarinho do menu*/
+    
+}
+
+.menu-icon{
+    margin-left: 20px;
+}
+
+#logo-tech{
+    width: 30px;
+
+}
+
+.menu-items{
+    color: aliceblue;
+    align-self: center;
+    margin-right: 20px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#botao-branco-topo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-self: center;
+    font-family: 'Inter', sans-serif;
+    padding-right: 20px; /*mexe os botoes para a esquerda pois empurra a borda da direita*/
+    
+}
+.links-menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Inter', sans-serif;
+    padding-right: 20px; /*mexe os botoes para a esquerda pois empurra a borda da direita*/
+}
+
+div > a{
+    display: flex;
+
+}
+
+.links-menu > a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;   
+    text-decoration: none; 
+    text-align: center;
+    padding-right: 20px;
+    transition: 0.5s ease;
+}
+
+.links-menu > a:hover{
+    transform: scale(1.1);
+}
+
+.menu-direita{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+/*Parte de cima se refere ao menu do topo e a cor verde escura principal*/
+
+/*Ediçao na cor e escrita principal do topo*/
+.texto-topo-conteiner{
+    font-size: 30px;
+    font-family:Helvetica;
+    gap: 100px;
+    display: flex;
+    align-items: center; /* Alinha o bloco de texto e a imagem verticalmente */
+    justify-content: space-between;
+    color: white;
+
+}
+
+.texto-topo-items{
+    margin-bottom: 150px; /*sobe o texto grande pra cima (falndo do topo)*/
+    color: white;
+    display: flex;
+    flex-wrap: wrap; /*deixa o texto menor em baixo (topo)*/
+}
+
+.cor-text-frase{
+    color: #E6FF82;
+   
+}
+
+.img-maqna{
+    width: 100%;
+    max-width: 900px;
+    border-radius: 30px;
+    margin-top: 50px;
+    
+   
+}
+.img-maqna-conteiner > img{
+    display: flex;
+   
+
+
+}
+.frase-pequena-topo{
+    align-self: flex-end;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 650px;
+    padding-top: 20px; /*distancia da frase pequena do texto grande (estamos falnd do topo)*/
+    padding-bottom: 50px; /*distancia do botao para o texto (do topo)*/
+    
+}
+/*botao do topo aqui em baixo*/
+.botao-topo {
+    background-color: #CEF03B;
+    border-radius: 10px;
+    min-width: 160px;
+    min-height: 55px;
+    transition: 0.5s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+}
+.botao-topo:hover{
+    background-color: #f1ffbb;
+    transform: scale(1.2);
+}
+
+.botao-topo-cor {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family:Sans-Serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/*<-----------------Parte de mobile abaixo-------------------------->*\
+
+

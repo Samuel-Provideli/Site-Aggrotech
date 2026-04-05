@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 310px) and (max-width: 768px) {
+  /* CSS rules to apply when the screen width is 600px or less */
+body{
+    width: 100vw;
+}
+
+section#cor-verde-escuro{
+    height: 100vh;
+}
+
+  .alinhamento-margin{
+    max-width: 90%;
+    margin: auto;
+}
+
+.img-maqna-conteiner{
+    display: none;
+}
+
+div#burguer{
+    background-color: #23775b;
+    color: white;
+    width: 40%;
+    height: 55%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    align-content: center;
+    display: block;
+   
+    
+}
+
+.link-conteiner{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    position: absolute;
+    z-index: 10;   /* Garante que ela fique na frente */
+}
+
+.menu-items{
+    width: 40%;
+    
+}
+
+.menu-topo{
+    max-width: 100%;
+}
+
+.menu-direita{
+    max-width: 90%;
+    max-height: 50px;
+    position: relative;
+} 
+
+.links-menu{ /*Fazer um menu hamburguinho*/
+    font-size: 80%;
+    flex-flow: row nowrap;
+    display: none;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    background-color: #23775b;
+    border-radius: 20px;
+    z-index: 999;
+    
+}
+
+.material-icons{
+    display: block;
+}
+
+div > nav > a{
+     text-align: center;
+     justify-content: center;
+}
+
+.menu-icon{
+    max-width: 90%;
+    font-size: 20px;
+   
+}
+
+#logo-tech{
+    width: 20px;
+}
+
+.img-maqna{
+    max-width: 200%;
+    flex-wrap: wrap-reverse;
+}
+
+.texto-topo-items{ /*Textos maiores do topo conteiner*/
+    width: 100vw;
+    font-size: 70%;
+    flex-wrap: wrap;
+    padding-top: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.frase-pequena-topo{
+    font-size: 90%;
+}
+
+.botao-topo{
+    text-align: center;
+    justify-content: center;
+    width: 50%; /*botao nao centralizado*/
+}
+
+
+
+
+
+
+
+
+}

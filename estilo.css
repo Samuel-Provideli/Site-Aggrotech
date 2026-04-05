@@ -1,0 +1,47 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+
+
+/*fim do botao do topo*/
+
+/*mudança de cor na pagina para os proximos topicos*/
+.mudança-cor-pagina{
+    border-radius: 0px;
+    background-color: white;
+    border-color: white;
+    padding-top: 40px; /*cria um espaço interior para tudo q estiver dentro do conteiner, saber a difereça de padding e margin é importante!*/
+    
+    
+}
+
+/*fim dos textos dos numeros da conquista*/
+
+/*frase sobre soluçoes*/
+
+/*Começo da seçao de investimentos e imagens de fundo*/
+
+
+
+/*<-------------Parte dos beneficios e imagens -------->*/
+
+
+/*<=======Parte de transformaçao e imagem===========>*/
+
+
+/*<!--Fim da ediçao da parte de Transformaçoes!-------------------->*/
+
+/*<!---------Parte dos Questionamentos e imagens de fundo---------->*/
+
+
+
+/*--------Fim das Questoes-------*/
+
+/*---------Inicio do Rodape e Outras finalizaçoes-----------*/
+
+
+

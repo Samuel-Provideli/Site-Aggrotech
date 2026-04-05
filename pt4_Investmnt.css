@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+div.invest_alinhamt{
+    display: flex;
+    justify-content: space-between;
+    height: 650px; /*tamanho do conteiner principal*/
+}
+
+#conteiner-img-invest1{
+    background-image: url(img/img_agro_invest.png);
+    width: 100%;
+    max-width: 650px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner-img-invest2{
+    display: flex;
+    background-image: url(img/img_agro_invest2.png);
+    width: 100%;
+    max-width: 650px;
+    border-radius: 40px;
+    flex-direction: column;
+}
+
+#box-text{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 350px 300px 0px;
+    max-height: 40px;
+    max-width: 500px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+    gap: 30px;
+    position: relative;
+    top: 100px;    
+}
+
+#box-text:hover{
+    transform: scale(1.1);
+}
+
+#text-btao{
+    background-color: #D9FF66;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family:Sans-Serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+
+#text-menor-esqrd{
+    width: 450px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.479);
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+
+#btao-text-invest1{
+    background-color: #CEF03B;
+    width: 430px;
+    border-radius: 10px;
+    font-family:Sans-Serif;
+    text-align: center;
+    font-size: 25px;
+    transition: 0.5s ease;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+
+#btao-text-invest1:hover{
+    background-color: #f1ffbb;
+    transform: scale(1.1);
+}
+
+/*Segunda Imagem e Conteiner*/
+
+p#text-btao2{
+    background-color: #E6FF82;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family:Sans-Serif;
+    text-align: center;
+    height: 30px;
+    align-content: center;
+    width: 130px;
+}
+
+p#text-maior-dirta{
+    position: relative;
+    max-width: 600px;
+    top: 30px;
+    left: 40px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+p#text-menor-dirta{
+    position: relative;
+    max-width: 450px;
+    top: 40px;
+    left: 40px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 15px;
+}
+
+#icon-invest1{
+    width: 60px;
+    background-color: #E6FF82;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border-radius: 10px;
+}
+
+#icon-invest2{
+    width: 65px;
+    height: 60px;
+    background-color: #E6FF82;
+    position: relative;
+    top: 40px;
+    left: 300px;
+    border-radius: 10px;
+}
+
+#num65{
+    position: relative;
+    top: 60px;
+    left: 40px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    width: 20%;
+}
+
+#num50{
+    position: relative;
+    top: 15px;
+    left: 300px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    width: 20%;
+}
+
+p#text-pqno-invest1{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    max-width: 180px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 15px;
+}
+
+p#text-pqno-invest2{
+    position: relative;
+    bottom: 35px;
+    left: 300px;
+    max-width: 240px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 15px;
+}
