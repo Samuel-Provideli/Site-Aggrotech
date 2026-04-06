@@ -146,7 +146,110 @@
 
 .text-solçs{
     font-size: 40px;
+  }
+.conteiner-soluçao-princp{
+    display: flex ;
+    margin-bottom: 20px;
+    gap: 20px;
+    
 }
+.conteiner-solucao1:hover{
+   transform: none;
+   background-color: #0000000c;
+   color: black;
+}
+.conteiner-solucao2:hover{
+   transform: none;
+   background-color: #0000000c;
+   color: black;
+}
+.conteiner-solucao3:hover{
+   transform: none;
+   background-color: #0000000c;
+   color: black;
+}
+.img-seta-verde:hover{
+    transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*<----------------Carrossel abaixo!------------------------>*/ 
+
+
+.Carrossel{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 0 3em;
+    
+}
+.Carrossel::-webkit-scrollbar{
+    display: none;
+    
+}
+.Carrossel::scroll-button(right){
+    content: '→';
+    background-color: #032C1E;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    font-family: Consolas;
+    font-size: 50px;
+    cursor: pointer;
+    
+    
+    
+}
+.Carrossel::scroll-button(left){
+    content: '←';
+    background-color: #032C1E;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    font-family: Consolas;
+    font-size: 50px;
+    margin-left: 10%; /*Configuraçoes do botao de scroll da pagina*/
+    margin-bottom: 10%;
+    
+}
+.Carrossel::scroll-button(right):disabled{
+    opacity: 0.5;
+    cursor: auto;
+}
+.Carrossel::scroll-button(left):disabled{
+    opacity: 0.5;
+    cursor: auto;
+}
+#card{
+    flex: 0 0 20em;
+   
+}
+
+
+
+
+
+
+
 
 
 

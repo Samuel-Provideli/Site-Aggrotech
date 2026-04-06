@@ -13,7 +13,7 @@ body{
 }
 
 section#cor-verde-escuro{
-    height: 100vh;
+    height: 100%;
 }
 
   .alinhamento-margin{
@@ -63,7 +63,9 @@ div#burguer{
 .menu-direita{
     max-width: 90%;
     max-height: 50px;
-    position: relative;
+    padding: 20px;
+    align-items: center;
+
 } 
 
 .links-menu{ /*Fazer um menu hamburguinho*/
@@ -105,7 +107,7 @@ div > nav > a{
 
 .texto-topo-items{ /*Textos maiores do topo conteiner*/
     width: 100vw;
-    font-size: 70%;
+    font-size: 20px;
     flex-wrap: wrap;
     padding-top: 20%;
     text-align: center;
@@ -113,8 +115,9 @@ div > nav > a{
     justify-content: center;
 }
 
-.frase-pequena-topo{
-    font-size: 90%;
+p.frase-pequena-topo{
+    font-size: 15px;
+    width: 70%;
 }
 
 .botao-topo{

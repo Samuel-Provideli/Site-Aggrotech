@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-div.alinhamt_imgs_transf {
+.alinhamt_imgs_transf {
     margin-top: 150px;
     display: flex;
     position: relative;
@@ -18,7 +18,7 @@ div.alinhamt_imgs_transf {
     max-height: 750px;
 }
 
-div.botao-transf {
+.botao-transf {
     background-color: #E6FF82;
     border-radius: 7px;
     width: 130px; 
@@ -33,11 +33,11 @@ div.botao-transf {
     left: 150px;
 }
 
-div.botao-transf-cor {
+.botao-transf-cor {
     color: rgb(0, 0, 0);
 }
 
-h2#text-transf {
+#text-transf {
     font-family: 'Inter', sans-serif;
     font-size: 50px;
     position: relative;
@@ -47,7 +47,7 @@ h2#text-transf {
     max-width: 600px;
 }
 
-p#btao-text-transf1 {
+#btao-text-transf1 {
     background-color: #CEF03B;
     height: 80px;
     width: 430px;
@@ -62,7 +62,19 @@ p#btao-text-transf1 {
     transition: 0.5s ease;
 }
 
-p#btao-text-transf1:hover {
+#btao-text-transf1:hover {
     background-color: #f1ffbb;
     transform: scale(1.2);
+}
+
+/*<--------Parte de Mobile---------------->*/
+
+@media screen and (min-width: 310px) and (max-width: 768px) {
+  /* CSS rules to apply when the screen width is 600px or less */
+
+
+
+
+
+
 }

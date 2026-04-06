@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-div.botao-pont{
+.botao-pont{
     background-color: #D9FF66;
     border-radius: 7px;
     width: 120px; 
@@ -72,9 +72,11 @@ div.botao-pont{
 @media screen and (min-width: 310px) and (max-width: 768px) {
   /* CSS rules to apply when the screen width is 600px or less */
   
-  .botao-pont{
+.botao-pont{
     margin: auto;
     align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .conteiner-text-pont{
@@ -95,11 +97,15 @@ h1.tex-pont{
 
 #alinmt-numrs{
     display: flex;
-    padding: 5%;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+   
 }
 .num-conqstas{
-    font-size: 15px;
+    font-size: 20px;
 }
 .tmnho-letrs{
     font-size: 15px;
